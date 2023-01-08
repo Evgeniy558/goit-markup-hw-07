@@ -1,0 +1,37 @@
+@import "container";
+
+.section-customers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    margin: 94px auto 50px;
+  }
+}
+
+.section-customers-box {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 94px;
+  max-width: 1170px;
+  &__item {
+    border: 1px solid $fillColorSvg;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: calc((100% - 150px) / 6);
+    transition: $transition;
+    fill: $fillColorSvg;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      fill: $logoAndHoverColor;
+      border: 1px solid $logoAndHoverColor;
+    }
+  }
+}
