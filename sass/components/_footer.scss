@@ -9,6 +9,9 @@
     background-color: $backgroundColorFooter;
   }
 }
+.container--flexbox {
+  display: flex;
+}
 
 .footer-contactsbox {
   display: flex;
@@ -18,8 +21,8 @@
     padding-bottom: 60px;
   }
 }
-
 @import "logo";
+
 .logo--footer {
   color: $textColorFooter;
 }
@@ -46,9 +49,7 @@
     &--spaces {
       margin-bottom: 9px;
     }
-    &--spaces:last-child {
-      margin-bottom: 0px;
-    }
+
     &:hover,
     &:focus {
       color: $logoAndHoverColor;

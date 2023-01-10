@@ -18,6 +18,10 @@
   color: $logoSecondPartHeader;
 }
 
+.logo--space {
+  margin-right: 93px;
+}
+
 .link {
   text-decoration: none;
   color: inherit;
@@ -83,7 +87,7 @@
     fill: #757575;
     transition: $transition;
   }
-  &__link--space-icon {
+  &__icon {
     margin-right: 10px;
   }
   &:last-child {
